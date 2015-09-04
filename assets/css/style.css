@@ -10,7 +10,7 @@ p {
 
 #headerwrap {
 	background: url(../img/ltsw_header.jpg) no-repeat center top;
-	margin-top: -50px;
+	margin-top: -25px;
 	padding-top:120px;
 	text-align:center;
 	background-attachment: relative;
@@ -51,4 +51,9 @@ p {
 img.fw_img {
 	width:100%;
 	margin:0 auto;
+}
+
+img.pad {
+	margin-top: 40px;
+	margin-bottom: 20px;
 }
