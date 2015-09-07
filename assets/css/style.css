@@ -1,7 +1,8 @@
 /* Learn to Swim Week Styles */
 
 body {
-	font-family: 'Droid Serif', serif;
+	font-family: "Droid Sans", sans-serif;
+  font-size: 2em;
 }
 
 p {
@@ -12,10 +13,11 @@ p {
     padding: 10px 0; 
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
     font-family: "Droid Sans", sans-serif;
     font-weight: 600;
     color: #008000;
+    font-size: 4em;
 }
 
 hr.style-two {
@@ -154,4 +156,13 @@ img.pad {
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #fff;
   background-color: #0066ff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #999;
+    font-size: 16px;
+}
+
+#burger {
+  color: #000;
 }
