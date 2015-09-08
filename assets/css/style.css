@@ -17,14 +17,24 @@ h1 {
     font-family: "Droid Sans", sans-serif;
     font-weight: 600;
     color: #008000;
-    font-size: 4em;
+    font-size: 3em;
 }
 
-hr.style-two {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+h2 {
+    font-family: "Droid Sans", sans-serif;
+    font-weight: 600;
+    color: #008000;
+    font-size: 2em;
 }
+
+h3 {
+    font-family: "Droid Sans", sans-serif;
+    font-weight: 400;
+    color: #0066ff;
+    font-size: 1.25em;
+}
+
+    
 
 #headerwrap {
 	background: url(../img/ltsw_header.jpg) no-repeat center top;
@@ -89,6 +99,28 @@ hr.style-two {
     background-size: cover;
 }
 
+#headerwrap4 {
+  background: url(../img/ltsw01.jpg) no-repeat center top;
+  margin-top: -25px;
+  padding-top:120px;
+  text-align:center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 540px;
+  width: 100%;
+  
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
 
 #headerwrap p {
     color: #ffffff;
@@ -113,6 +145,17 @@ hr.style-two {
 }
 
 #headerwrap3 p {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 15px;
+    text-shadow: 1px 1px 1px #999;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#headerwrap4 p {
     color: #ffffff;
     font-size: 40px;
     font-weight: 700;
@@ -163,6 +206,12 @@ img.pad {
     font-size: 16px;
 }
 
-#burger {
-  color: #000;
+#yellowbg {
+  background: #f7d14a;
+  margin-top: 0px;
+  padding-top: 40px;
+  border-bottom: 1px solid #0066ff;
+  text-align: center;
 }
+
+
