@@ -1,0 +1,72 @@
+/* NATIONAL LEARN TO SWIM WEEK STYLE SHEET */
+
+/* Color codes sampled from logo
+        Blue: #0066ff
+        Green: #008000
+        Yellow: #f7d14a
+        #ba0c0b RED
+        #017f02 DARK GREEN
+        e5f0ff light blue
+        fceebd light yellow
+        e8ffe8 light green
+
+
+*/
+
+body {
+    font-family: "Roboto Slab","georgia",serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    background-image: url("../img/blue-bg.png");
+    background-repeat: repeat;
+}
+
+
+.h1, h1 {
+    font-family: "Roboto Condensed","Arial",sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #008000;
+}
+
+.h2, h2 {
+    font-family: "Roboto Condensed","Arial",sans-serif;
+    font-size: 24px;
+    text-align: left;
+    font-weight: 600;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #0066ff;
+}
+
+/* CHANGE COLOUR OF THE NAVBAR */
+.navbar-default {
+    background-color: #fff;
+    border-color: #0066ff;
+}
+
+img {
+  border: 1px solid #0066ff;
+  padding: 5px;
+  margin: 10px;
+}
+
+.img-responsive {
+    max-width: auto;
+}
+
+.centerImage {
+text-align:center;
+display:block;
+}
+
+.logo {
+    border: none;
+}
+
