@@ -33,55 +33,62 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
     height: auto;
+    min-height: 100%;
     padding-top: 120px;
-    padding-bottom: 25px;   
+    padding-bottom: 50px;   
     text-align: center;
     background: transparent;
 }
 
 .about-section {
     height: auto;
-    padding-top: 50px;
-    padding-bottom: 25px;   
+    min-height: 100%;
+    padding-top: 60px;
+    padding-bottom: 50px;   
     text-align: left;
     background: #e5f0ff;
 }
 
 .register-section {
     height: auto;
-    padding-top: 50px;
-    padding-bottom: 25px;   
+    min-height: 100%;
+    padding-top: 60px;
+    padding-bottom: 50px;   
     text-align: center;
     background: transparent;
 }
 
 .volunteer-section {
    height: auto;
-    padding-top: 50px;
-    padding-bottom: 25px;   
+   min-height: 100%;
+    padding-top: 60px;
+    padding-bottom: 50px;   
     text-align: center;
     background: #fceebd;
 }
 
 .sponsor-section {
     height: auto;
-    padding-top: 50px;
-    padding-bottom: 25px; 
+    min-height: 100%;
+    padding-top: 60px;
+    padding-bottom: 50px; 
     text-align: center;
     background: #transparent;
 }
 .travel-section {
     height: auto;
-    padding-top: 50px;
-    padding-bottom: 25px;   
+    min-height: 100%;
+    padding-top: 60px;
+    padding-bottom: 50px;   
     text-align: center;
     background: #e5f0ff;
 }
 
 .contact-section {
     height: auto;
-    padding-top: 50px;
-    padding-bottom: 25px;   
+    min-height: 100%;
+    padding-top: 60px;
+    padding-bottom: 50px;   
     text-align: center;
     background: #transparent;
 }

@@ -15,7 +15,7 @@
 
 body {
     font-family: "Roboto Slab","georgia",serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
     color: #333;
     background-color: #fff;
@@ -26,16 +26,20 @@ body {
 
 .h1, h1 {
     font-family: "Roboto Condensed","Arial",sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     color: #008000;
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 .h2, h2 {
     font-family: "Roboto Condensed","Arial",sans-serif;
-    font-size: 24px;
+    font-size: 26px;
     text-align: left;
     font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 hr {
@@ -50,6 +54,17 @@ hr {
     background-color: #fff;
     border-color: #0066ff;
 }
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #0066ff;
+    background-color:#fceebd;
+}
+
+.navbar-nav {
+    float: left;
+    margin: 10px;
+}
+
 
 img {
   border: 1px solid #0066ff;
