@@ -25,7 +25,7 @@ body {
 
 
 .h1, h1 {
-    font-family: "Roboto Condensed","Arial",sans-serif;
+    font-family: "Roboto","Arial",sans-serif;
     font-size: 50px;
     text-align: center;
     color: #008000;
@@ -34,12 +34,17 @@ body {
 }
 
 .h2, h2 {
-    font-family: "Roboto Condensed","Arial",sans-serif;
+    font-family: "Roboto","Arial",sans-serif;
     font-size: 26px;
     text-align: left;
     font-weight: 600;
     margin-top: 10px;
     margin-bottom: 15px;
+}
+
+.sub {
+    font-family: "Roboto Condensed","Arial",sans-serif;
+    font-size: 18px;
 }
 
 hr {
@@ -85,3 +90,34 @@ display:block;
     border: none;
 }
 
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+  height: auto;
+}
+#footer {
+  background-color: #eee;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+#footer {
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+}
+
+.ftr {
+    margin-top: 25px;
+}
+
+form {
+    display: block;
+    margin-top: 25px;
+}
+
+input {
+    margin-bottom: 10px;
+}
