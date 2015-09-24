@@ -42,10 +42,11 @@ body {
     margin-bottom: 15px;
 }
 
-.sub {
+.littlehdr {
     font-family: "Roboto Condensed","Arial",sans-serif;
-    font-size: 18px;
+    font-size: 20px;
 }
+
 
 hr {
     margin-top: 20px;
@@ -81,13 +82,17 @@ img {
     max-width: auto;
 }
 
-.centerImage {
-text-align:center;
-display:block;
+
+/* Styles the navbar logo */
+.navlogo {
+    border: none;
+    padding: 0;
+    margin: 10px 10px 10px 0;
 }
 
-.logo {
-    border: none;
+/* Removes img border */
+.noborder {
+    border:none;
 }
 
 /* Set the fixed height of the footer here */
@@ -95,8 +100,10 @@ display:block;
 #footer {
   height: auto;
 }
+
 #footer {
-  background-color: #eee;
+    background-color: #fff;
+    border-top: #0066ff 1px solid;
 }
 
 /* Lastly, apply responsive CSS fixes as necessary */
@@ -120,4 +127,16 @@ form {
 
 input {
     margin-bottom: 10px;
+}
+
+/* Change text and highlight colour on selection */
+
+::-moz-selection { 
+background-color: #BA9EB0; 
+color: #ffffff;
+}
+
+::selection {
+background-color: #BA9EB0;
+color: #ffffff;
 }
