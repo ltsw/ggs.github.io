@@ -97,6 +97,7 @@ img {
 
 /* Set the fixed height of the footer here */
 #push,
+
 #footer {
   height: auto;
 }
@@ -141,8 +142,7 @@ background-color: #BA9EB0;
 color: #ffffff;
 }
 
-
-        
+  
         
  /* Color codes sampled from logo
         Blue: #0066ff
